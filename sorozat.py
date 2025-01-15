@@ -27,7 +27,6 @@ def nagyobb(lista):
 def konzol_ir(nagyobb):
     print(f"\nNagyobb számok száma: {nagyobb}")
 
-
 def fajlba_ir(nagyobb_db):
     with open("vegeredmeny.txt","w",encoding="UTF-8") as file:
         file.write(f"Nagyobb számok száma: {nagyobb_db}")
